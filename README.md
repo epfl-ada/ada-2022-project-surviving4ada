@@ -1,5 +1,5 @@
 # ada-2022-project-surviving4ada
-Team member: Zhan Li
+Team member: Zhan Li, Yuheng Lu, Xiyun Fu, Yichen Liu
 ### Abstract
 Wikispeedia is a dataset that collected human navigation paths on Wikipedia in terms of games, which implies all the connection between articles is created from human intuition. As wikispeedia dataset can be considered as a language “map”, including tons of criss-cross article navigation paths, we try to find out 100 of the most popular words that were identified as linguistic 'transport hubs', based on their click-through and reach rates. After clustering, they are compared with other datasets (e.g. media corpus, national economic power, technological development index) to find out whether these 'transport hubs' are equally influential in the real world, and whether their impact changes with time.
 
@@ -27,9 +27,9 @@ In addition, we are also curious about the semantic distance between articles. I
 #### **Find the highest frequent articles**
 Identify the 100 most frequently occurring words in the paths each year, and use WordCloud plot to show how often each article is passed over relatively.
 ##### **Visualisation**
-- ![**2011**](pic2011)
-- ![**2012**](pic2012)
-- ![**2013**](pic2013)
+- ![**2011**](pic2011.png)
+- ![**2012**](pic2012.png)
+- ![**2013**](pic2013.png)
 
 #### **Determining category granularity**
 We wanted to rank the frequency of occurrence of articles in the same category and then compare the degree of overlap with the corresponding words in the additional dataset. Considering that the classification needs to be easy to understand and that each category should contain a sufficient number of articles, we chose the penultimate level category of the articles as the unique category.
