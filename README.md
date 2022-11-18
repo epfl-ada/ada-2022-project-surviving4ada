@@ -12,7 +12,7 @@ In addition, we are also curious about the semantic distance between articles. I
 4. Whether the semantic distance defined based on path length shows consistency with the similarity analysis based on the vector embeddings？
 
 ### Addition dataset
-1. **News Category Dataset** from kaggle.
+1. **News Category Dataset** from kaggle
    The format of the data can be found in the News_Category_Dataset_v3.json file. We scrap only the attributes "headline", "date" for the investigation of each ‘Transport Hub’ ‘s popularity in the media.
 2. **GDP** from World Bank website
     The csv file GDP_world_bank contains every country's GDP from 1960-2022. We will use the ‘Country” and “2011”,”2012”,”2013” column.
@@ -27,7 +27,7 @@ In addition, we are also curious about the semantic distance between articles. I
 #### **Find the highest frequent articles**
 Identify the 100 most frequently occurring words in the paths each year, and use WordCloud plot to show how often each article is passed over relatively.
 ##### **Visualisation**
-- ![**2011**](pic2011.png)
+- ![**2011**]<img src=pic2011.png width="600" height="300">
 - ![**2012**](pic2012.png)
 - ![**2013**](pic2013.png)
 
