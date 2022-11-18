@@ -28,8 +28,7 @@ In addition, we are also curious about the semantic distance between articles. I
 #### **Find the highest frequent articles**
 Identify the 100 most frequently occurring words in the paths each year, and use WordCloud plot to show how often each article is passed over relatively.
 #### **Visualisation**
-|                  **2011**                    |                   **2012**                   |                **2013**                                                                                                              |   |   |   |
-|----------------------------------------------|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|                  **2011**                    |                   **2012**                   |                **2013**                                                 :-----:|:-----:|:-----:|
 |<img src=pic2011.png width="300" height="250">|<img src=pic2012.png width="300" height="250">|<img src=pic2011.png width="300" height="250">
 
 
@@ -51,6 +50,7 @@ Create a random collection of articles to be compared with the top100 articles, 
 Use Doc2vec to obtain the embedding vectors of each document. Then calculate the cosine similarity between the representations of two articles to obtain their semantic distance.
 
 **Visualisation**
+
 <img src= pic1.png width="600" height="600">
 
 Use heatmap to show the cosine similarity matrix (which represents the semantic distance).
