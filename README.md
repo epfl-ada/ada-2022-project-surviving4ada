@@ -27,12 +27,10 @@ In addition, we are also curious about the semantic distance between articles. I
 ### **Find the highest frequent articles**
 Identify the 100 most frequently occurring words in the paths each year, and use WordCloud plot to show how often each article is passed over relatively.
 #### **Visualisation**
-- **2011**
-<img src=pic2011.png width="250" height="200">
-- **2012**
-<img src=pic2012.png width="250" height="200">
-- **2013**
-<img src=pic2013.png width="250" height="200">
+|                  **2011**                    |                   **2012**                   |                **2013**                                                                                                              |   |   |   |
+|----------------------------------------------|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
+|<img src=pic2011.png width="300" height="250">|<img src=pic2012.png width="300" height="250">|<img src=pic2011.png width="300" height="250">
+
 
 ### **Determining category granularity**
 We wanted to rank the frequency of occurrence of articles in the same category and then compare the degree of overlap with the corresponding words in the additional dataset. Considering that the classification needs to be easy to understand and that each category should contain a sufficient number of articles, we chose the penultimate level category of the articles as the unique category.
