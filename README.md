@@ -51,7 +51,7 @@ Use Doc2vec to obtain the embedding vectors of each document. Then calculate the
 
 **Visualisation**
 
-<img src= pic1.png width="600" height="600">
+<img src= pic1.png width="600" height="500">
 
 Use heatmap to show the cosine similarity matrix (which represents the semantic distance).
 
