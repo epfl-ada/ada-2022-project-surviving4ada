@@ -1,5 +1,6 @@
 # ada-2022-project-surviving4ada
 Team member: Zhan Li, Yuheng Lu, Xiyun Fu, Yichen Liu
+# A path from wiki to real world
 ## Abstract
 Wikispeedia is a dataset that collected human navigation paths on Wikipedia in terms of games, which implies all the connection between articles is created from human intuition. As wikispeedia dataset can be considered as a language “map”, including tons of criss-cross article navigation paths, we try to find out 100 of the most popular words that were identified as linguistic 'transport hubs', based on their click-through and reach rates. After clustering, they are compared with other datasets (e.g. media corpus, national economic power, technological development index) to find out whether these 'transport hubs' are equally influential in the real world, and whether their impact changes with time.
 
