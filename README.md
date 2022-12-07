@@ -40,7 +40,7 @@ We wanted to rank the frequency of occurrence of articles in the same category a
 #### **Ranking comparison**
 Sort and rank the terms according to their categories in wikispeedia, find the corresponding articles in other datasets and rank their frequency of occurrence to compare their degree of overlap.
 Since the top100 contains many articles in the country category, we use this category as an example for comparison with **GDP_world_bank**. For the countries appearing in the top100 articles, a comparison of their hotness in  wikispeedia and national GDP shows that there are a tendency to homogenise. 
-<img src = pic2.png width="500" height="500">
+<img src = pic1.png width="500" height="500">
 
 For the future milestone, we will add more interesting comparisons based on different category.
 
@@ -53,7 +53,7 @@ Use Doc2vec to obtain the embedding vectors of each document. Then calculate the
 
 **Visualisation**
 
-<img src= pic1.png width="600" height="500">
+<img src= pic2.png width="600" height="500">
 
 Use heatmap to show the cosine similarity matrix (which represents the semantic distance).
 
