@@ -30,7 +30,7 @@ Identify the 100 most frequently occurring words in the paths each year, and use
 #### **Visualisation**
 |                  **2011**                     |                   **2012**                    |                **2013**                      |                                                                                       
 |-----------------------------------------------|-----------------------------------------------|----------------------------------------------|
-|<img src=pic2011.png width="300" height="250" >|<img src=pic2012.png width="300" height="250" >|<img src=pic2011.png width="300" height="250">｜
+|<img src=pic2011.png width="300" height="250" >|<img src=pic2012.png width="300" height="250" >|<img src=pic2013.png width="300" height="250">｜
 
 
 
