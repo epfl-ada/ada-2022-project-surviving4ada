@@ -1,7 +1,7 @@
 # A path from wiki to real world
 Team member: Zhan Li, Yuheng Lu, Xiyun Fu, Yichen Liu
 ## Abstract
-Wikispeedia is a dataset that collected human navigation paths on Wikipedia in terms of games, which implies all the connection between articles is created from human intuition. As wikispeedia dataset can be considered as a language “map”, including tons of criss-cross article navigation paths, we try to find out 100 of the most popular words that were identified as linguistic 'transport hubs', based on their click-through and reach rates. After clustering, they are compared with other datasets (e.g. media corpus, national economic power, technological development index) to find out whether these 'transport hubs' are equally influential in the real world, and whether their impact changes with time.
+Wikispeedia is a dataset that collected human navigation paths on Wikipedia in terms of games, which implies all the connection between articles is created from human intuition. As wikispeedia dataset can be considered as a language “map”, including tons of criss-cross article navigation paths, we try to find out 100 of the most popular words that were identified as linguistic 'transport hubs', based on their click-through. After clustering, they are compared with other datasets (e.g. media corpus, national economic power, technological development index) to find out whether these 'transport hubs' are equally influential in the real world, and whether their impact changes with time.
 
 In addition, we are also curious about the semantic distance between articles. Is the length of the path between two words representative of the semantic distance between the two articles? We compared the path lengths with the results of using vector embeddings.
 
@@ -9,7 +9,7 @@ In addition, we are also curious about the semantic distance between articles. I
 1. By counting the number of times a word appears in paths during one whole year, which are the top 100 articles？
 2. Are the words most popular in wikispeedia also most ‘powerful’ in other datasets? We selected two datasets, xx and xx, for an initial comparison.
 3. If the answer of question 2 is yes, are their changing trends in different years matching too?
-4. Do hot articles accelerate the reach of the target?
+4. Do hot articles accelerate the reach of the target (reach rates)?
 5. Whether the semantic distance defined based on path length shows consistency with the similarity analysis based on the vector embeddings？
 
 ### Addition dataset
