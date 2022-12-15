@@ -6,7 +6,7 @@ Wikispeedia is a dataset that collected human navigation paths on Wikipedia in t
 In addition, we are also curious about the semantic distance between articles. Is the length of the path between two words representative of the semantic distance between the two articles? We compared the path lengths with the results of using vector embeddings.
 
 ### Research questions
-1. By counting the number of times a word appears in paths during one whole year, which are the top 100 articles？
+1. Find the cluster center of articles on semantic level, whether transport hubs of this game are also the semantic hubs?
 2. Are the words most popular in wikispeedia also most ‘powerful’ in other datasets? We selected two datasets, xx and xx, for an initial comparison.
 3. Do hot articles accelerate the reach of the target (reach rates)?
 
