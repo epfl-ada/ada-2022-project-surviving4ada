@@ -8,9 +8,7 @@ In addition, we are also curious about the semantic distance between articles. I
 ### Research questions
 1. By counting the number of times a word appears in paths during one whole year, which are the top 100 articles？
 2. Are the words most popular in wikispeedia also most ‘powerful’ in other datasets? We selected two datasets, xx and xx, for an initial comparison.
-3. If the answer of question 2 is yes, are their changing trends in different years matching too?
-4. Do hot articles accelerate the reach of the target (reach rates)?
-5. Whether the semantic distance defined based on path length shows consistency with the similarity analysis based on the vector embeddings？
+3. Do hot articles accelerate the reach of the target (reach rates)?
 
 ### Addition dataset
 1. **News Category Dataset** from kaggle
