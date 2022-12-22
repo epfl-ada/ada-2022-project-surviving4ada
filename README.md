@@ -51,6 +51,9 @@ Use Doc2vec to obtain the embedding vectors of each document, before that we ini
 Use k-means in sklearn, noting that k-means in scikit-learn only supports Euclidean distances, so we normalized the text vectors so Euclidean distances are equivalent to cosine distances. After clustering, we compare the clustering results with the real categories and get almost the same categories, so we consider the clustering results credible.
 We also did PCA cluster for more intuitive visualisation of results.
 
+#### **Google Trend comparison**
+We want to know whether the tranpsort hubs have a close relationship with their popularity. Therefore, Google Trends are taken into consideration. We use pytrends to collect the most popular words(100) and calculate the sum of their Google Trend Index in 2011, 2012 and 2013 respectively. Then we compare the relative rank of transport hubs with that of Google trends words as well as the yearly change in ranking. The evaluative metric is the mean square error. Besides, we also use scatter plot to see the difference. Finally, we find that there is no relationship between our hubs and words' popularity.
+
 #### **For typical nation terms: GDP Ranking comparison**
 Sort and rank the terms according to their categories in wikispeedia, find the corresponding articles in other datasets and rank their frequency of occurrence to compare their degree of overlap.
 Since the top100 contains many articles in the country category, we use this category as an example for comparison with **GDP_world_bank**. For the countries appearing in the top100 articles, a comparison of their hotness in  wikispeedia and national GDP shows that there are a tendency to homogenise. 
