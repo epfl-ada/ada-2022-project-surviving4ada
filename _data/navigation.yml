@@ -15,9 +15,9 @@ en: &DEFAULT_EN
         section: basic_analysis
       - title: "CAN WE PLACE WIKI TRANSPORT HUBS ON SEMANTIC LEVEL?"
         section: sentiment_analysis
-      - title: "DOES THE COUNTRY'S TYPE OF TRANSPORT HUBS HAVE CONNECTIONS WITH GDP?"
+      - title: "CONNECTIONS WITH GDP?"
         section: timeline_analysis
-      - title: "DOES GOOGLE TRENDS HAVE A POSITIVE RELATIONSHIP WITH TRANSPORT HUBS?"
+      - title: "RELATIONSHIP WITH GOOGLE TRENDS?"
         section: google_trend_analysis
     - title: "Conclusion"
       section: conclusion
