@@ -38,7 +38,7 @@ As wikispeedia dataset can be considered as a article ‘**map**’, including t
 Identify the 100 most frequently occurring words in the paths each year, and use WordCloud plot to show how often each article is passed over relatively.
 |                  **2011**                     |                   **2012**                    |                **2013**                      |                                                                                       
 |-----------------------------------------------|-----------------------------------------------|----------------------------------------------|
-|<img src=pic2011.png width="300" height="250" >|<img src=pic2012.png width="300" height="250" >|<img src=pic2013.png width="300" height="250">｜
+|<img src=image/cloud_2011.png width="300" height="200" >|<img src=image/cloud_2012.png width="300" height="200" >|<img src=image/cloud_2013 width="300" height="200">｜
 
 
 #### **Do hot articles accelerate the reach of the target?**
