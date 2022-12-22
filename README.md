@@ -13,10 +13,14 @@ As wikispeedia dataset can be considered as a article ‘**map**’, including t
 
 ### Addition dataset
 - **News Category Dataset** from kaggle
+- 
    The format of the data can be found in the News_Category_Dataset_v3.json file. We scrap only the attributes "headline", "date" for the investigation of each ‘Transport Hub’ ‘s popularity in the media.
 - **GDP_world_bank** from World Bank website
+- 
     The csv file GDP_world_bank contains every country's GDP from 1960-2022. We will use the ‘Country” and “2011”,”2012”,”2013” column.
-
+- **Google Trends in 2011, 2012 and 2013** from Google trends website
+- 
+    The 3 csv files Google_Trend_2011, Google_Trend_2012 and Google_Trend_2013 contain corresonding Google Trends indices of the most popular 100 words in 2011, 2012 and 2013 respectively. They are collected by using pytrends API.
 ### Methods
 
 #### **External libraries**
@@ -27,6 +31,7 @@ As wikispeedia dataset can be considered as a article ‘**map**’, including t
 - seaborn
 - nltk
 - wordcloud
+- pytrends
 
 #### **Initial data processing**
 - Drop the rows which have null elements in column 'hashedIpAddress'
@@ -52,7 +57,7 @@ Use k-means in sklearn, noting that k-means in scikit-learn only supports Euclid
 We also did PCA cluster for more intuitive visualisation of results.
 
 #### **Google Trend comparison**
-We want to know whether the tranpsort hubs have a close relationship with their popularity. Therefore, Google Trends are taken into consideration. We use pytrends to collect the most popular words(100) and calculate the sum of their Google Trend Index in 2011, 2012 and 2013 respectively. Then we compare the relative rank of transport hubs with that of Google trends words as well as the yearly change in ranking. The evaluative metric is the mean square error. Besides, we also use scatter plot to see the difference. Finally, we find that there is no relationship between our hubs and words' popularity.
+We want to know whether the tranpsort hubs have a close relationship with their popularity. Therefore, Google Trends are taken into consideration. We use pytrends to collect the most popular words(100) and calculate the sum of their Google Trend Index in 2011, 2012 and 2013 respectively. Then we compare the relative rank of transport hubs with that of Google trends words as well as the yearly change in ranking. The evaluative metric is the mean square error. 
 
 #### **For typical nation terms: GDP Ranking comparison**
 Sort and rank the terms according to their categories in wikispeedia, find the corresponding articles in other datasets and rank their frequency of occurrence to compare their degree of overlap.
@@ -65,6 +70,6 @@ Since the top100 contains many articles in the country category, we use this cat
 - Fu Xiyun : Data analysis & Web design
 - Li Zhan : Casual inference & Cluster & Data story
 - Lu Yuheng : Data preprocess & Cluster & Data visualization
-- Liu Yichen : Data story & Data visualization
+- Liu Yichen : data story & Data visualization
 
 
