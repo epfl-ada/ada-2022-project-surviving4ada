@@ -114,35 +114,55 @@ function generatePieLabel(name, data) {
 }
 
 function generateTimeseriesChart(name, data) {
-  columns = ['x'];
-  values = [data[0][1]];
+  xs1 = ['xs1'];
+  xs2 = ['xs2'];
+  hotness = [data[0][1]];
+  gdp = [data[0][2]];
 
   for (let i = 1; i < data.length; i++) {
-    columns.push(data[i][0])
-    values.push(parseFloat(data[i][1]))
+    xs1.push(data[i][0])
+    xs2.push(data[i][0])
+    hotness.push(parseFloat(data[i][1]))
+    gdp.push(parseFloat(data[i][2]))
   }
 
   return c3.generate({
     bindto: `#${name}`,
     data: {
-      x: 'x',
-      columns: [columns, values]
-    },
-    axis: {
-      x: {
-        type: 'timeseries',
-        tick: {
-          format: '%Y-%m-%d'
-        }
+      xs: {
+          'hotness': 'xs1',
+          'gdp': 'xs2',
       },
-      y: {
-          label: {
-              text: 'number of quotes',
-              position: 'outer-center'
-          }
-      }
+      columns: [
+          xs1,
+          xs2,
+          hotness,
+          gdp,
+      ]
     }
   });
+  
+  // return c3.generate({
+  //   bindto: `#${name}`,
+  //   data: {
+  //     x: 'x',
+  //     columns: [columns, values1, values2]
+  //   },
+  //   axis: {
+  //     x: {
+  //       type: 'timeseries',
+  //       tick: {
+  //         format: '%Y-%m-%d'
+  //       }
+  //     },
+  //     y: {
+  //         label: {
+  //             text: 'number of quotes',
+  //             position: 'outer-center'
+  //         }
+  //     }
+  //   }
+  // });
 }
 
 chart = null;
