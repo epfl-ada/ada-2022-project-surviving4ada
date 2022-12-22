@@ -1,0 +1,48 @@
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    quotation: "../assets/img/quotation.svg"
+
+  conclusion:
+    title: "Conclusion"
+    section: conclusion
+
+  team:
+    title: "The team"
+    section: team
+    people:
+      - name:  "i Zhan"
+        first: "L"
+        role: "Data Science <i class='fas fa-laptop'></i>"
+        
+      - name: "uheng Lu"
+        first: "Y"
+        role: "Electrical Engineering <i class='fas fa-laptop'></i>"
+        
+      - name: "ichen Liu"
+        first: "Y"
+        role: "Energy Science <i class='fas fa-laptop'></i>"
+        
+      - name: "iyun Fu"
+        first: "X"
+        role: "Energy Science <i class='fas fa-laptop'></i>"
+
+  footer:
+    social:
+      - url: https://github.com/
+        icon: "fab fa-github"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN

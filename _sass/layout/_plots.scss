@@ -1,0 +1,29 @@
+
+
+.pie-label-up .c3-chart-arcs text {
+    transform: translate(-50px, -50px) !important;
+  }
+
+.badge-republican {
+margin-top: 1em;
+margin-bottom: 1em;
+background-color: $republican-color;
+white-space: normal;
+word-wrap: break-word;
+}
+
+.badge-democratic {
+margin-top: 1em;
+margin-bottom: 1em;
+background-color: $democratic-color;
+white-space: normal;
+word-wrap: break-word;
+}
+
+#top-speakers .c3-legend-item-quotes  {
+    display: none;
+}
+
+.fix-img {
+  width: 100%;
+}

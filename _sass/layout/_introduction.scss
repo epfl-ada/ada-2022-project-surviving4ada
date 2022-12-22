@@ -1,0 +1,37 @@
+// Styling for the introduction section
+.tweet {
+  img {
+    border-radius: 4%;
+    width: 50%;
+    transform: rotate(0deg);
+  }
+}
+
+.quotebank {
+  color: #333;
+  font-family: 'Libre Baskerville', serif;
+  &:hover {
+    .quotebank-dot {
+      color: #D94176;
+    }
+  }
+}
+.quotebank-dot {
+  color: #41D9A4;
+  font-family: 'Libre Baskerville', serif;
+  &:hover {
+    color: #D94176;
+  }
+}
+
+.inline {
+  display: inline-block;
+}
+
+.indent {
+  padding-left: 5%;
+}
+
+.smaller-font {
+  font-size: smaller;
+}

@@ -1,0 +1,53 @@
+<!-- Matching -->
+<div class="row">
+    <div class="col-md-12">
+        <h5 class="section-heading mt-3 mb-3 tb-3">Matching</h5>
+    </div>
+
+    <div class="col-md-12">
+        <p class="text-justify lead">
+            Our assumption is that during the period of the political campaigns (treatment), politicians will focus on
+            the problem of climate change and how they would address them during their mandate, resulting in more
+            climate change quotes that period (target).
+            <br><br>
+            How can we test this? Well, simply we will observe number of quotes speaker had in the periods of time when
+            campaigns were active, and when they were not. And, the most interesting part, we will match speakers with
+            themselves. So, we will observe how many quotes one had in the period without campaigns (i.e. without
+            treatment), and in the period during the campaigns (i.e. with treatment). And what about confounders? Well,
+            we are matching them with themselves, so the confouners may only be events which match the periods during
+            election campaigns (i.e. climate disasters that spanned the campaign periods). Since the campaign period is
+            long then we do not expect disasters to occur any more frequently during them then outside of them. Based on
+            the informations provided in the article, we will use as the campaign period the timespan of one year and a
+            half before the elections.
+
+            The treated group represents politicians under the campaign period and the control group are the same
+            politicians outside of campaigning.
+            Since the target is a real number we will show the distribution of its values.
+        </p>
+    </div>
+
+    <div class="col-md-12 residuals">
+        <img src="assets/img/matching_general.png" alt="" srcset="">
+    </div>
+
+    <div class="col-md-12">
+        <p class="text-justify lead">
+            The graph is the CCDF function on a log-log scale showing that the distributions are power law
+            distributions.
+            <br>
+            Now will shall run this analysis separately for Democrats and Republicans.
+        </p>
+    </div>
+
+    <div class="col-md-12 residuals">
+        <img class="fix-img" src="assets/img/matching.png" alt="" srcset="">
+    </div>
+
+    <div class="col-md-12">
+        <p class="text-justify lead">
+            As we can see for Democrats election period is one for which the distribution of quotes is shifted to higher
+            values. That is, Democrats tend to focus on climate change more during elections. Adversely, Republicans
+            tend to shy away from that topic during the campaign.
+        </p>
+    </div>
+</div>
