@@ -17,7 +17,7 @@ remote_theme: raviriley/agency-jekyll-theme
 url    : "teamnerf" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/ADA_Data_Story" # the subpath of your site, e.g. /blog
 
-title      : WIKISPEEDIA! A PATH FROM WIKI TO REAL WORLD?q
+title      : WIKISPEEDIA! A PATH FROM WIKI TO REAL WORLD?
 description: "Team surviving4ada"
 author     : Team surviving4ada
 logo       : False
