@@ -13,13 +13,13 @@ As wikispeedia dataset can be considered as a article ‘**map**’, including t
 
 ### Addition dataset
 - **News Category Dataset** from kaggle
-- 
+ 
    The format of the data can be found in the News_Category_Dataset_v3.json file. We scrap only the attributes "headline", "date" for the investigation of each ‘Transport Hub’ ‘s popularity in the media.
 - **GDP_world_bank** from World Bank website
-- 
+ 
     The csv file GDP_world_bank contains every country's GDP from 1960-2022. We will use the ‘Country” and “2011”,”2012”,”2013” column.
 - **Google Trends in 2011, 2012 and 2013** from Google trends website
-- 
+-
     The 3 csv files Google_Trend_2011, Google_Trend_2012 and Google_Trend_2013 contain corresonding Google Trends indices of the most popular 100 words in 2011, 2012 and 2013 respectively. They are collected by using pytrends API.
 ### Methods
 
