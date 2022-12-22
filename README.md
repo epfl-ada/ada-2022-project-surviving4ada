@@ -56,7 +56,7 @@ Sort and rank the terms according to their categories in wikispeedia, find the c
 Since the top100 contains many articles in the country category, we use this category as an example for comparison with **GDP_world_bank**. For the countries appearing in the top100 articles, a comparison of their hotness in  wikispeedia and national GDP shows that there are a tendency to homogenise. 
 |                  **2011**                     |                   **2012**                    |                **2013**                      |                                                                                       
 |-----------------------------------------------|-----------------------------------------------|----------------------------------------------|
-|<img src=image/GDP_2011.png width="300" height="200" >|<img src=image/GDP_2012.png width="300" height="200" >|<img src=image/GDP_2013.png width="300" height="200">
+|<img src=image/GDP_2011.png width="180" height="120" >|<img src=image/GDP_2012.png width="180" height="120" >|<img src=image/GDP_2013.png width="180" height="120">
 
 ### **Team Organization**
 - Fu Xiyun : Data analysis & Web design
