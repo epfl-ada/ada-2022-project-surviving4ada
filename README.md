@@ -65,6 +65,6 @@ Since the top100 contains many articles in the country category, we use this cat
 - Fu Xiyun : Data analysis & Web design
 - Li Zhan : Casual inference & Cluster & Data story
 - Lu Yuheng : Data preprocess & Cluster & Data visualization
-- Liu Yichen : data story & Data visualization
+- Liu Yichen : Data story & Data visualization
 
 
