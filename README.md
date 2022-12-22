@@ -65,7 +65,7 @@ Since the top100 contains many articles in the country category, we use this cat
 |-----------------------------------------------|-----------------------------------------------|----------------------------------------------|
 |<img src=image/GDP_2011.png width="300" height="200" >|<img src=image/GDP_2012.png width="300" height="200" >|<img src=image/GDP_2013.png width="300" height="200">
 
-### **Team Organization**
+## **Team Organization**
 - Fu Xiyun : Data analysis & Web design
 - Li Zhan : Casual inference & Cluster & Data story
 - Lu Yuheng : Data preprocess & Cluster & Data visualization
