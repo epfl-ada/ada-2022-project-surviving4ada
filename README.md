@@ -54,7 +54,9 @@ We also did PCA cluster for more intuitive visualisation of results.
 #### **For typical nation terms: GDP Ranking comparison**
 Sort and rank the terms according to their categories in wikispeedia, find the corresponding articles in other datasets and rank their frequency of occurrence to compare their degree of overlap.
 Since the top100 contains many articles in the country category, we use this category as an example for comparison with **GDP_world_bank**. For the countries appearing in the top100 articles, a comparison of their hotness in  wikispeedia and national GDP shows that there are a tendency to homogenise. 
-<img src = image/pic1.png width="500" height="500">
+|                  **2011**                     |                   **2012**                    |                **2013**                      |                                                                                       
+|-----------------------------------------------|-----------------------------------------------|----------------------------------------------|
+|<img src=image/GDP_2011.png width="300" height="200" >|<img src=image/GDP_2012.png width="300" height="200" >|<img src=image/GDP_2013.png width="300" height="200">
 
 ### **Team Organization**
 - Fu Xiyun : Data analysis & Web design
