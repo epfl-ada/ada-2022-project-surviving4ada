@@ -12,9 +12,9 @@ As wikispeedia dataset can be considered as a article ‘**map**’, including t
    - Or what happened in real life to cause them to be more easily recalled?
 
 ### Addition dataset
-1. **News Category Dataset** from kaggle
+- **News Category Dataset** from kaggle
    The format of the data can be found in the News_Category_Dataset_v3.json file. We scrap only the attributes "headline", "date" for the investigation of each ‘Transport Hub’ ‘s popularity in the media.
-2. **GDP_world_bank** from World Bank website
+- **GDP_world_bank** from World Bank website
     The csv file GDP_world_bank contains every country's GDP from 1960-2022. We will use the ‘Country” and “2011”,”2012”,”2013” column.
 
 ### Methods
@@ -22,7 +22,7 @@ As wikispeedia dataset can be considered as a article ‘**map**’, including t
 #### **External libraries**
 - scipy
 - sklearn
-- Genism
+- genism
 - matplotlib
 - seaborn
 - nltk
