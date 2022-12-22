@@ -18,8 +18,8 @@ en: &DEFAULT_EN
     title: "The team"
     section: team
     people:
-      - name:  "i Zhan"
-        first: "L"
+      - name:  "han Li"
+        first: "Z"
         role: "Data Science <i class='fas fa-laptop'></i>"
         
       - name: "uheng Lu"
