@@ -39,7 +39,7 @@ As wikispeedia dataset can be considered as a article ‘**map**’, including t
 
 ### **Find transport hubs**
 Identify the 100 most frequently occurring words in the paths each year, and use WordCloud plot to show how often each article is passed over relatively.
-#### At a Glance
+#### First glimpse
 |                  **2011**                     |                   **2012**                    |                **2013**                      |                                                                                       
 |-----------------------------------------------|-----------------------------------------------|----------------------------------------------|
 |<img src=image/cloud_2011.png width="300" height="200" >|<img src=image/cloud_2012.png width="300" height="200" >|<img src=image/cloud_2013.png width="300" height="200">
