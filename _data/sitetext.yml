@@ -24,7 +24,7 @@ en: &DEFAULT_EN
         
       - name: "uheng Lu"
         first: "Y"
-        role: "Electrical Engineering <i class='fas fa-laptop'></i>"
+        role: "Electrical and Electrionics Engineering <i class='fas fa-laptop'></i>"
         
       - name: "ichen Liu"
         first: "Y"
