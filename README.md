@@ -45,15 +45,16 @@ Identify the 100 most frequently occurring words in the paths each year, and use
 We conducted a causal analysis of the average shortest distance from the starting article to the destination using linear regression: Match a random collection of articles to be compared with the transport hub articles, and conclude whether the hotwords are accelerated or not.
 
 #### **Semantic distance analysis**
-Use Doc2vec to obtain the embedding vectors of each document. Then calculate the cosine similarity between the representations of two articles to obtain their semantic distance.
+Use Doc2vec to obtain the embedding vectors of each document. Each article is represented as a vector of length 300. Then calculate the cosine similarity between the representations of two articles to obtain their semantic distance.
 
 #### **Cluster**
-Use k-means in sklearn, 
+Use k-means in sklearn, noting that k-means in scikit-learn only supports Euclidean distances, so we normalized the text vectors so Euclidean distances are equivalent to cosine distances. After clustering, we compare the clustering results with the real categories and get almost the same categories, so we consider the clustering results credible.
+We also did PCA cluster for more intuitive visualisation of results.
 
 #### **For typical nation terms: GDP Ranking comparison**
 Sort and rank the terms according to their categories in wikispeedia, find the corresponding articles in other datasets and rank their frequency of occurrence to compare their degree of overlap.
 Since the top100 contains many articles in the country category, we use this category as an example for comparison with **GDP_world_bank**. For the countries appearing in the top100 articles, a comparison of their hotness in  wikispeedia and national GDP shows that there are a tendency to homogenise. 
-<img src = pic1.png width="500" height="500">
+<img src = image/pic1.png width="500" height="500">
 
 ### **Team Organization**
 - Fu Xiyun : Data analysis & Web design
