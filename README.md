@@ -21,7 +21,7 @@ As wikispeedia dataset can be considered as a article ‘**map**’, including t
 - **Google Trends in 2011, 2012 and 2013** from Google trends website
 
     The 3 csv files Google_Trend_2011, Google_Trend_2012 and Google_Trend_2013 contain corresonding Google Trends indices of the most popular 100 words in 2011, 2012 and 2013 respectively. They are collected by using pytrends API.
-## Code running order
+## Code files' running order
 - Hubs.ipynb
 - Mean_Distance_Q4.ipynb
 - Doc2vec.ipynb
