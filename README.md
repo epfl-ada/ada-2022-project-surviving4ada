@@ -1,5 +1,6 @@
 # Wikispeedia! A path from wiki to real world?
 Team member: Zhan Li, Yuheng Lu, Xiyun Fu, Yichen Liu
+Our web: https://epfl-ada.github.io/ada-2022-project-surviving4ada/
 
 ## Abstract
 WIkispeedia is a the human-computation game in which users are asked to navigate from a given source to a given target article, by only clicking Wikipedia links, which implies all the connection between articles is created from human intuition.  This dataset contains human navigation paths on Wikipedia, collected through Wikispeedia. This dataset contains data from 2011 to 2014, but we have discarded the 2014 data because it is significantly smaller than the other three years. 
