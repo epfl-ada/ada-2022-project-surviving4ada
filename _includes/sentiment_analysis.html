@@ -40,28 +40,48 @@
         <h5 class="section-heading mt-3 mb-3 tb-3">Clustering results</h5>
       </div>
 
+    </div>
+
+    <div class="row justify-content-md-center">
       <div class="col-md-12">
-        <div class="section-subheading text-justify lead">
-          <ol>
-            <li>Average cosine distance to centroids</li>
-            <li>Reduce the dimensionality by PCA for visualization</li>
-          </ol>
-        </div>
-        <div class="col-md-12 residuals mt-2">
-          <pre> 
-            ==================================================
-                          Average cosine distance    
-            --------------------------------------------------
-             Between hubs                               0.8658  
-             Among all articles                         0.8659  
-            ==================================================
-            </pre>
-        </div>
-        <div class="col-md-12 residuals">
-          <img src="assets/img/cluster.png" width="80%" alt="" srcset="">
+        <div class="section-subheading text-justify lead" style="margin-bottom: 1rem;">
+            1. Average cosine distance to centroids
         </div>
       </div>
+      <br>
+      <div class="col col-md-6">
+          <table class="table table-bordered">
+            <thead class="thead-dark">
+              <tr>
+                <th colspan="2" style="text-align: center;">Average cosine distance</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Between hubs</th>
+                <td>0.8658</td>
+              </tr>
+              <tr>
+                <th scope="row">Among all articles</th>
+                <td>0.8659</td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
     </div>
+
+    <div class="row justify-content-md-center">
+      <div class="col-md-12">
+        <div class="section-subheading text-justify lead" style="margin-bottom: 1rem;">
+            2. Reduce the dimensionality by PCA for visualization
+        </div>
+      </div>
+      <div class="col-md-12 residuals">
+        <img src="assets/img/cluster.png" width="80%" alt="" srcset="">
+      </div>
+    </div>
+
+    <br>
 
     <div class="row">
       <div class="col-md-12">
