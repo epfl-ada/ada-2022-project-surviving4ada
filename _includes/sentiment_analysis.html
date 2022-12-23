@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase">Can we place Wiki transport hubs on Semantic level?</h2>
-        <h3 class="section-subheading text-muted">...</h3>
+        <h3 class="section-subheading text-muted"></h3>
       </div>
     </div>
 
@@ -27,8 +27,12 @@
         <div class="section-subheading text-justify lead">
           We use <b>cosine distances</b> of their doc embedding. 
           <ol>
-            <li>We firstly obtain the embedded vectors of articles, using <b>Doc2Vec</b> model. Each article is represented as a vector of length 300. The Doc2Vec model, in contrast to the traditional word embedding model, allows the creation of word embedding set while directly obtaining a vector of the entire document. Since it is a direct segment vector, it takes into account the order between words and has better semantic information.</li>
-            <li>We clustered those articles, using <b>K-means</b>, based on cosine distance. We determined the value of K to be 16 by analysing the category structure of the articles, and the clustering results were tested by these 16 true categories at the end of the clustering.</li>
+            <li>We firstly obtain the embedded vectors of articles, using <b>Doc2Vec</b> model. Each article is represented as a vector of length 300. The Doc2Vec model, 
+              in contrast to the traditional word embedding model, allows the creation of word embedding set while directly obtaining a vector of the entire document. 
+              Since it is a direct segment vector, it takes into account the order between words and has better semantic information.</li>
+              <br>
+            <li>We clustered those articles, using <b>K-means</b>, based on cosine distance. We determined the value of K to be 16 by analysing the category 
+              structure of the articles, and the clustering results were tested by these 16 true categories at the end of the clustering.</li>
           </ol>
           
         </div>
