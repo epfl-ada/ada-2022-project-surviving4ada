@@ -114,55 +114,66 @@ function generatePieLabel(name, data) {
 }
 
 function generateTimeseriesChart(name, data) {
-  xs1 = ['xs1'];
-  xs2 = ['xs2'];
+  country = ['country'];
   hotness = [data[0][1]];
   gdp = [data[0][2]];
 
   for (let i = 1; i < data.length; i++) {
-    xs1.push(data[i][0])
-    xs2.push(data[i][0])
+    country.push(data[i][0])
     hotness.push(parseFloat(data[i][1]))
     gdp.push(parseFloat(data[i][2]))
   }
 
-  return c3.generate({
-    bindto: `#${name}`,
-    data: {
-      xs: {
-          'hotness': 'xs1',
-          'gdp': 'xs2',
-      },
-      columns: [
-          xs1,
-          xs2,
-          hotness,
-          gdp,
-      ]
-    }
-  });
-  
   // return c3.generate({
   //   bindto: `#${name}`,
   //   data: {
-  //     x: 'x',
-  //     columns: [columns, values1, values2]
+  //     xs: {
+  //         'hotness': 'country'
+  //     },
+  //     columns: [
+  //         country,
+  //         hotness
+  //     ]
   //   },
   //   axis: {
-  //     x: {
-  //       type: 'timeseries',
-  //       tick: {
-  //         format: '%Y-%m-%d'
-  //       }
-  //     },
-  //     y: {
-  //         label: {
-  //             text: 'number of quotes',
-  //             position: 'outer-center'
-  //         }
+  //     country: {
+  //       type: 'category'
   //     }
   //   }
   // });
+  
+  return c3.generate({
+    bindto: `#${name}`,
+    data: {
+      x: 'country',
+      columns: [
+        country,
+        hotness, 
+        gdp
+      ],
+      axes: {
+        'gdp': 'y2'
+      }
+    },
+    axis: {
+      x: {
+        type: 'category'
+      },
+      y: {
+        label: {
+            text: 'Hotness (visits)',
+            position: 'outer-center'
+        }
+      },
+      y2: {
+        show: true,
+        label: {
+          text: 'GDP (Million USD)',
+          position: 'outer-middle'
+        }
+      }
+    }
+  });
 }
 
 chart = null;

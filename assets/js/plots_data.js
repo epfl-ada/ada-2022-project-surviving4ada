@@ -6,7 +6,7 @@ const pies = ["piechart_test", "pie_quotes_party", "pie_climate_quotes_party",
     "pie_true", "pie_misinformation", "pie_misinfo_total",
 "pie_sentiment_republicans", "pie_sentiment_democrats"];
 const piesLabel = ["pie_politicians", "pie_quotes", "pie_climate_quotes"]
-const timeseries = ["BarackObama", "gdp2011", "BernieSanders", "DonaldTrump"]
+const timeseries = ["gdp2011", "gdp2012", "gdp2013"]
 
 pies.forEach(chart => parseData(chart, generatePie));
 piesLabel.forEach(chart => parseData(chart, generatePieLabel));
